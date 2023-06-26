@@ -1,11 +1,11 @@
-About r-mlergm
-==============
+About r-mlergm-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlergm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=mlergm
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-mlergm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimates exponential-family random graph models for multilevel network data, assuming the multilevel structure is observed. The scope, at present, covers multilevel models where the set of nodes is nested within known blocks. The estimation method uses Monte-Carlo maximum likelihood estimation (MCMLE) methods to estimate a variety of canonical or curved exponential family models for binary random graphs. MCMLE methods for curved exponential-family random graph models can be found in Hunter and Handcock (2006) <DOI: 10.1198/106186006X133069>. The package supports parallel computing, and provides methods for assessing goodness-of-fit of models and visualization of networks.
 
