@@ -1,6 +1,5 @@
 {% set version = '0.8' %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-mlergm
@@ -13,8 +12,7 @@ source:
   sha256: 084a45e583dcdd31a5045d63786a22b6473b33045733398ca88e12bbaaa4ed2e
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  number: 3
   noarch: generic
   rpaths:
     - lib/R/lib/
